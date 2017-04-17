@@ -56,7 +56,7 @@ function renderTable(statusRows){
         "TOTAL",
         (function(){
             return rows.reduce(function(prev,curr){
-                return prev+curr.Success
+                return prev+parseInt(curr.Success)
             },0)
         }()),
         (function(){

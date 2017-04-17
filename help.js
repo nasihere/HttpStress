@@ -5,7 +5,7 @@ function help(arg) {
         console.log('1. --options=host:localhost,port:8000,path:/users,method:GET');
         console.log('2. --time=3000 \n3. --request=2000');
         console.log('4. --fork=10');
-        console.log('e.g: node milionworker.js --options=host:localhost,port:8000,path:/users,method:GET --request=2000 --time=3000 ')
+        console.log('e.g: node httpstress.js --options=host:localhost,port:8000,path:/users,method:GET --request=2000 --time=3000 ')
 
         console.log('-'.repeat(50));
 
