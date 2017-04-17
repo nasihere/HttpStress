@@ -12,7 +12,7 @@ Optional Parameter
 3. --error
 4. --logs
 
-# Example HttpSress:
+# Example HttpStress:
 e.g: node httpstress.js --options=host:localhost,port:8000,path:/users,method:GET --request=2000 --time=3000
 
 # Sample Hello World 
